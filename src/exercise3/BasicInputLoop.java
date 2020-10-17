@@ -18,6 +18,6 @@ public class BasicInputLoop {
         } while (a != 0 || b != 0);
 
         System.out.println("End");
+      
     }
-
 }
