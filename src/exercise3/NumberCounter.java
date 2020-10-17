@@ -1,12 +1,13 @@
+5
 package exercise3;
 
 import java.util.Scanner;
 
 public class NumberCounter {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int number = Integer.parseInt(scanner.nextLine());
+        int number = input.nextInt();
 
         int count = 0;
         double sum = 0;
@@ -29,7 +30,7 @@ public class NumberCounter {
             System.out.println("Negative numbers: " + negative);
             System.out.println("Sum: " + sum);
             System.out.println("Average: " + average);
-            number = scanner.nextInt();
+            number = input.nextInt();
         }
     }
 

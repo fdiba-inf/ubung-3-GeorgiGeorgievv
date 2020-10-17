@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class NamePrinter {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String name = scanner.nextLine();
+        Scanner input = new Scanner(System.in);
+        String name = input.nextLine();
 
         for (int i = 0; i < name.length(); i++) {
             char letter = name.charAt(i);

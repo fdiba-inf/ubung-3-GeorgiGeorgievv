@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class AngleCalculation {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        double number = Double.parseDouble(scanner.nextLine());
-        char type = scanner.next().charAt(0);
+        double number = input.nextDouble();
+        char type = input.next().charAt(0);
 
         do {
             if (type == 'r') {
@@ -19,8 +19,8 @@ public class AngleCalculation {
                 System.out.println("Angle: " + radiant + "r");
 
             }
-            number = scanner.nextDouble();
-            type = scanner.next().charAt(0);
+            number = input.nextDouble();
+            type = input.next().charAt(0);
         } while (type == 'r' || type == 'd');
     }
 }

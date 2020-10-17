@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int number = scanner.nextInt();
+        int number = input.nextInt();
 
         int d = 2;
         boolean prime = true;
@@ -16,7 +16,7 @@ public class PrimeNumber {
                 prime = false;
                 break;
             }
-            
+
             d++;
         }
         System.out.println("Prime number: " + prime);
