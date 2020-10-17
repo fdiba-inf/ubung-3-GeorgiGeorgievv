@@ -38,6 +38,5 @@ public class Triangle {
             c = input.nextDouble();
         } while (a > 0 && b > 0 && c > 0);
 
-
     }
 }
