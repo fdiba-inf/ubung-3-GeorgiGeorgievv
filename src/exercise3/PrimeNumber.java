@@ -20,6 +20,6 @@ public class PrimeNumber {
             d++;
         }
         System.out.println("Prime number: " + prime);
-
+        
     }
 }

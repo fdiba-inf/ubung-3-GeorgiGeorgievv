@@ -11,5 +11,6 @@ public class NamePrinter {
             char letter = name.charAt(i);
             System.out.println("* " + letter + " *");
         }
+
     }
 }

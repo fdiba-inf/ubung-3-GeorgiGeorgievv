@@ -22,5 +22,6 @@ public class AngleCalculation {
             number = input.nextDouble();
             type = input.next().charAt(0);
         } while (type == 'r' || type == 'd');
+        
     }
 }

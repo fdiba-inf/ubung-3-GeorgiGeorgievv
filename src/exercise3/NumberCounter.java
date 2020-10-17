@@ -33,5 +33,4 @@ public class NumberCounter {
             number = input.nextInt();
         }
     }
-
 }
